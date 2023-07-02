@@ -1,0 +1,13 @@
+[package]
+name = "hellorusticed"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { version = "0.9.0", features = ["tokio"] }
+iced_futures = "0.6.0"
+iced_native = "0.10.3"
+reqwest = { version = "0.11.18", default-features = false, features = ["rustls-tls"] }
+
