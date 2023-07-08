@@ -1,6 +1,7 @@
 
 # Rust + GTK4
 
+## Install and Basic Example
 ```
 # -------------
 # GTK4 install
@@ -42,4 +43,11 @@ cargo build
 # build and run
 cargo run
 
+```
+
+## Drag and Drop Text View Example
+
+```bash
+cargo add gio
+cargo add gdk
 ```
